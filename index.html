@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Heera Singh Janoti's portfolio showcasing skills in web development with React, Bootstrap, and more.">
+
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <!-- nav bar -->
+  <header id="home">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark bg-opacity-50 fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#home"><img id="image" style="height: 8vh ; width: 8vh;"
+            src="https://cdn-icons-png.freepik.com/512/6840/6840478.png" alt=""></a>
+        <button class="navbar-toggler border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto my-font">
+            <li class="nav-item text-white">
+              <a class="nav-link text-white active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#blogs">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- name intro -->
+  <!-- <div id="on-mid-position" class="intro text-center">
+    Hi, I am <br> <strong>Heera Singh Janoti👋</strong>
+  </div> -->
+
+  <!-- carousel -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="1000">
+        <img style="height: 100vh;"
+          src="https://www.pixelstalk.net/wp-content/uploads/images6/5K-Wallpaper-HD-Free-download.jpg"
+          class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="1000">
+        <img style="height: 100vh;" src="https://i.redd.it/hdgf0pj52x151.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="1000">
+        <img style="height: 100vh;" src="https://images5.alphacoders.com/862/862186.png" class="d-block w-100"
+          alt="...">
+      </div>
+      <div class="carousel-caption">
+        <h2 id="mainText" class="text-info">Hi, I am </h2>
+        <h1 class="text-info">Heera Singh Janoti</h1>
+        <h2 id="subText"></h2>
+    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </div>
+
+  <!-- gap between carousel and about section -->
+  <div class="gap"></div>
+
+  <!-- about section -->
+  <div id="about" class="about bg-white">
+    <h1 class="text-center p-5">About Me</h1>
+    <div class="conatainer">
+      <div class="pd-5 align-item-center row">
+        <div class="col-md-6 col-12">
+          <div class="p-2 row"><img id="about-img"
+              src="https://img.freepik.com/premium-vector/man-working-laptop-icon-illustration-work-from-home-mascot-cartoon-character-people-icon-concept-isolated_138676-1090.jpg"
+              style="height: 60vh;" alt=""></div>
+        </div>
+        <div class="col-md-6 col-12">
+          <div class="px-5 row intro-text">
+            Hello! I'm Heera singh janoti, a passionate web developer based in Delhi. With a strong foundation in JavaScript and its modern frameworks like React and Next.js, I specialize in crafting responsive and dynamic web applications.
+            <br><br>
+             My expertise extends to utilizing Redux for state management and enhancing UI/UX with Bootstrap and Tailwind CSS. Whether it's designing intuitive user interfaces or optimizing code performance, I thrive on delivering impactful solutions that meet both user needs and business goals. I am enrolled in Almabetter for Web Development Program to improve my self.
+            <br>
+
+            <br>
+
+            I love learning about new technologies, what problems are they solving and How can I use them to build
+            better and scalable products.
+
+            <br><br>
+
+
+            <div class="d-flex myButton justify-content-center flex-wrap col">
+              <a href=""><button type="button" class="btn m-2 btn-outline-primary">let's talk</button></a>
+              <a href=""><button type="button" class="btn m-2 btn-outline-success">My Resume</button></a>
+              <a href=""><button type="button" class="btn m-2 btn-outline-warning">Medium</button></a>
+              <a href="https://www.linkedin.com/in/heera-singh-janoti-2ab7b6179"><button type="button" class="btn m-2 btn-outline-info">Linkedin</button></a>
+              <a href="https://github.com/hjanoti"><button type="button" class="btn m-2 btn-outline-dark">GitHub</button></a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br> <br>
+
+  <!-- skills -->
+  <div id="skills" class="skills m-3 text-center text-white heading">
+    <h1>TECH SKILLS</h1>
+
+    <div class="card-deck d-flex justify-content-center">
+      <div>
+        <div class="mt-4 m-2 card">
+          <div class="card-body">
+            <div class="card-title h5">Version Control</div>
+            <hr>
+            <p class="card-text"><a href="https://github.com/" style="text-decoration: none; color: black;"><img
+                  style="height: 40px;"
+                  src="data:image/png;base64,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"
+                  alt="">GitHub</a></p>
+          </div>
+        </div>
+        <div class="mt-3 m-2 card">
+          <div class="card-body">
+            <div class="card-title h5"> Database</div>
+            <hr>
+            <p class="card-text"><a href="https://firebase.google.com/"
+                style="text-decoration: none; color: black;"></a><img style="height: 40px;"
+                src="https://w7.pngwing.com/pngs/562/910/png-transparent-firebase-angularjs-serverless-computing-node-js-others-angle-rectangle-orange.png"
+                alt="">Firebase Database</a></p>
+
+            <p class="card-text"><a href="https://firebase.google.com/"
+                style="text-decoration: none; color: black;"></a><img style="height: 40px;"
+                src="https://www.vhv.rs/dpng/d/387-3877090_google-cloud-functions-icon-hd-png-download.png" alt="">Cloud
+              Firestore</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="mt-4 m-2 card">
+          <div class="card-body">
+            <div class="card-title h5">Frameworks</div>
+            <hr>
+            <p class="card-text"><a href="https://firebase.google.com/"
+                style="text-decoration: none; color: black;"></a><img style="height: 40px;"
+                src="https://mui.com/static/logo.png" alt="">Material-UI</a></p>
+
+            <p class="card-text"><a href="https://firebase.google.com/"
+                style="text-decoration: none; color: black;"></a><img style="height: 40px;"
+                src="data:image/png;base64,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"
+                alt="">React Bootstrap</a></p>
+
+            <p class="card-text"><a href="https://firebase.google.com/"
+                style="text-decoration: none; color: black;"></a><img style="height: 40px;"
+                src="https://img.freepik.com/premium-vector/bootstrap-icon-b-letter-logo_781017-7.jpg"
+                alt="">Bootstrap</a></p>
+
+            <p class="card-text"><a href="https://firebase.google.com/"
+                style="text-decoration: none; color: black;"></a><img style="height: 40px;"
+                src="https://s-softteam.com/wp-content/uploads/2023/07/Tailwind-CSS.svg" alt="">Tailwind CSS</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="mt-4 m-2 card">
+          <div class="card-body">
+            <div class="card-title h5">Hosting platform</div>
+            <hr>
+            <p class="card-text"><a href="https://firebase.google.com/"
+                style="text-decoration: none; color: black;"></a><img style="height: 40px;"
+                src="https://static-00.iconduck.com/assets.00/netlify-icon-512x512-p4tqk3ec.png" alt="">Netlify</a></p>
+
+            <p class="card-text"><a href="https://firebase.google.com/"
+                style="text-decoration: none; color: black;"></a><img style="height: 40px;"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/800px-GitHub_Invertocat_Logo.svg.png"
+                alt="">GitHub Pages</a></p>
+
+            <p class="card-text"><a href="https://firebase.google.com/"
+                style="text-decoration: none; color: black;"></a><img style="height: 40px;"
+                src="https://static-00.iconduck.com/assets.00/vercel-icon-512x449-3422jidz.png" alt="">Vercel</a></p>
+
+            <p class="card-text"><a href="https://firebase.google.com/"
+                style="text-decoration: none; color: black;"></a><img style="height: 40px;"
+                src="https://cdn-icons-png.flaticon.com/512/873/873120.png" alt="">Heroku</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="mt-4 m-2 card">
+          <div class="card-body">
+            <div class="card-title h5">Scripting Language</div>
+            <hr>
+            <p class="card-text"><a href="https://firebase.google.com/"
+                style="text-decoration: none; color: black;"></a><img style="height: 40px;"
+                src="https://www.freeiconspng.com/uploads/html5-icon-2.png" alt="">HTML5</a></p>
+
+            <p class="card-text"><a href="https://firebase.google.com/"
+                style="text-decoration: none; color: black;"></a><img style="height: 40px;"
+                src="https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png" alt="">CSS3</a></p>
+
+            <p class="card-text"><a href="https://firebase.google.com/"
+                style="text-decoration: none; color: black;"></a><img style="height: 40px;"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Javascript_badge.svg/1200px-Javascript_badge.svg.png"
+                alt="">JavaScript</a></p>
+
+            <p class="card-text"><a href="https://firebase.google.com/"
+                style="text-decoration: none; color: black;"></a><img style="height: 40px;"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png"
+                alt="">Sass</a></p>
+
+            <p class="card-text"><a href="https://firebase.google.com/"
+                style="text-decoration: none; color: black;"></a><img style="height: 40px;"
+                src="https://static-00.iconduck.com/assets.00/react-javascript-js-framework-facebook-icon-2048x1822-f7kq7hho.png"
+                alt="">React JS</a></p>
+
+            <p class="card-text"><a href="https://firebase.google.com/"
+                style="text-decoration: none; color: black;"></a><img style="height: 40px;"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOYAAADbCAMAAABOUB36AAAAilBMVEX///92Srx0R7tzRbtqNbdxQrpvPrlsObhpM7dqNrdvP7ltO7j59/z9/P6Vd8rHueLb0ux+VsCafsy9rN3t6fb08fnPw+aeg87Xzeq2o9nm4PK/r96pktOHY8PLvuSvmtaDXcKki9GRccjj3PB6UL5/V8CLacWghs/TyOi5p9uumNXf1+6Sc8jm3/Ka9+2aAAARoElEQVR4nNVdaXeyOhCugYRNxQUX3FG01dr///eu6NuWyUYSAvQ+33pOhQyZzD6Tt7d2kIziNBteznkvz7fHxX69TFp6c1voL/cXL4hC7CDUK4CQg8Mo8C7pqOu12UIyvfgRdno8ONgLJrtB10usjf764IaIS+IPqcRd/L/3dDTxK2j8R6mXx12v1Rjzc8BnVQ4QIdeu12uEeR6pbOQvQrLues3aGI09PSILRPn/64zO7q4+kQ8gf9Lveu3qmPrKZ5IGjj66Xr0ikkNkSmQB971rApQQ+0b8+osw/x8YgUOvHpEPoGDZNRUVSHpYSoGDSeQFrusGnkcEBuAD/rRrQqRYBmKGRThy0XAfL1dJf9CfJZ+7dEgCgZEUbLomRYK1L9zFyN+myxnzi2S99bn7Hy06WL8a9q6IxmDxIdSHSYoJZ0vJpM2layDjCx/sD6tUYdwj/xs6M562RCRMWVZlsY5Y1o3+ogLlUhn1VP2r/iRgfu3tG12xCW4cjg2xjhM59xj94v81J3TK7oXja27G7BAydH42s1xDfLCaJNrqm2wLhiWIysFuCyuGSuQbxQL2NFM4B8tLrYGBQ+s9B32ZPWpKfzDyd8TQhZYd4dY4JLmmTYw/czz3tG6vpdhT6nwix9pCa2HE8Fk9c3RDfTX8J6wE5mCGdY20I2UQ/Qm2XVCLci61H9mDHw7lFpZZE0uKZRGqnxBJqGf+gUA1oljWX1l4aEyJoaDrqOaess8CO1boEJ4EnFl5qjFo9sKWfMQBJW39bmN9d2gYoJ6tB88h2zpDWw82wSe1mRZF/xF+QCtH3hRbKH/Cm71HU8fB6TBisoT+hD2WLXCDwq3D03mAm+lazdpRUgh3Frgdwc20zVdrSGfQVR0GLSVsO/rQWO4qlU2FDMLU9gvgdnZl2W6gpULsvwEKIa8TR2UAT2YTPHUFdHZj8cWUJGzgFX0YMHEbeEUlti0IiAyci2jexDvkoKyUqJGXrMB2dmEJUefGuph9ARogbvuqcwwWYF1n/gMUAO3X0qyAnG2MnfrgaLQva1PAs15jNWgTYGk1Ic6lADxr1zUBmIOsadCy15kAEWjfzvvBAL6oZbt2DXi2SV9wWObatmMlwDlBhwbfRMnaBt/EgmKlJkuyZkDWeq0ezmWLgiEvCzvSajHCvmxrNihnC9zK72pXcwIbrOEozUeZc9C50XdBDMB5adgEmwF7y2/RrB2Bo+k3nMcBzphnWNNgAuCdoHHDbwOak+wafpvoxY0HUFMgg5ozuBgAc7rx7zsvGwgtutYzYBw0rrG/ysmxxo/IL6AEajwQBUWt1/TrfgDs9kYN2hcA87itFfFlmnbJ6JoNh5NbbMrdPZ/8SgPvZPgUbYDQZVhR5XFauEWvseNgEvSuZip2tlsQD7/e2l48CPia8uBpcix3i6HQNdYHn2n+7OptzXiHsXApE8VMSxwZm7vgyXTrh1FbinMFqh8CiUjI2JLpHgrqZHxm8batCj7K2RT/I7fIv3YdRluVUDBsgYT/NxX0xKHoLxV2C5GqqU22MPwbzrbF1RoDpG/FsbaDuCnO6yC1pQ0QCHdEEuFD1sYZkicclB+290m2n8bLr7/GyaCyHYsqnrZKLbkIoYfhgMOiqTPoXTbTjz/TiAsDQQI1RtcsKqGYxuIF52w96rqw9I2qXRbFaNdMg5Ay0INYf5ztOt5XEJsR2V4L44kA37SSAGXzDg8sUPoiMsc1u+WfwMQ/pK15JBSACCUC3VC/Xf4FFAbo1klBEDBURWQK2o+NgD1n33o5LSx7EvlhHKO9FqXBed2y9FUi08bRBEDEf2+VeZWY9lhT0vLgBOcWg9FKIiiVD7MwBIrwtK0kCvDDRMHoT1uilkbo7ds5pErmwZucaT23QPCA50WEFPP31AkN9m3sKDT2RLUdV5m15yf9ArNZkqxOy3mcboaHKPBIqEZtGLXQNLZVMd3fBpLRSCE3u9Q/za+T3PdCBelFcOPC6KjkiL3txKqTSJiu/7leOC7BVdvqnRtWL8CtlgTdhyJh61eWvs12GQoqdhX5i0ZlEQyS3MX/eOav01Wrr0nWl3JSgQPsNRmaVgx5PY7nmbefvno8ub8bulJKvUtzTikMYIayf2Xnejm+nuwY7C6yKZqO31gVHxWOluqwOAJ6BXkGEzxm1x47lOUH0aUh15tKLsjXPUh/cllO6G8N01nLO38S1vOxDVX6w1RRVCnXl7dt5AYuvl9rOI3JLRDaG24zpV9KRi3EoF/bPhtcCWcS1hPhuQnGVTODGsAaCwi1NH9wCNgNJOXbbQ5ZEwHrms3tAUhyqAWmQHG23IiXBnxh5NX93HMfwUouqFHaLBYs0M/4U2FrDO8pcPNpWyeBhTqtB1JXF67P7vRqCKLjc+tglSUMSLcYn/nGHPM4FxFTjTUbv54XAafi0mppIg+DjDcE17SuIfkerQrVBqwBb7Ng+RefOU/mVvt4vEf9jGFFII8+71QGfePG21BfX4GWp1eBwwlLMKOuhpR/8kb+atMJBh7BGjLwGRtsnarCghOI0eRbOAgRChqQvUT1p1oZY8dhXF9Hw1HDq2CzCfSsuzqcBXizqj11n5YekQP9SmggRF3O7R5cGHMeYVU7IWHykzDuDFilu6koT2yYA+rkavw1Y8MvGKiUrMXuqUqwg7mxmrgYM8Yx5bl+dNokS4MdGxuqDG68M8fao35GtXZ3p1Je+GTu6/Cq/c89k/5gY6vArG2xa0KAFXP5SqWZQM9BfPyEdUJgeVNDXDvbbS65k1+yuFJFsHRWqJUZ48zx7IpZ81w7OvoEI9RDCBN/WxWlXNHytsKl2NLix+VaFYeGJwIkF3CdE/LOFcYNo+lDWVwzpQ8mn0oYELI/34FtBkBVyRdG3vri4DdT0yyqTIdc61i+COLGK5+KKsYBxDTfRsLMIF1rJxZYsGDWtZpr3PMLNEgFncycYtH/X+kRm+JAD5UYs5mZmouKcaOKseD0nOKAL7hm1PM9yXGAFoJNITQTp/MrmjsG1JxiQfp/CM+9fAwrHP7i2XNTJuLSqargNy1auF7FCB78Cs0zAgfIwsjof5DWj0cV4dI1dap5k1DPcMsrUpfUJGuB4tHHRlYHVxlHpCbmcr4+NfrWrTI8YIWTtekv8rvW3Aq7sk8JUTZXlkNnubLnjBJYlsbpVFT7Vc55mVPTZGm3Am4mEjd//QDW7VtKAVb0PFS/hZKjdAsTPJkqccATFFl2tlN6NFWcvpkr+wEUnFjJeoOWkJ3TOako2ZNW6DwxhcfTA6YtFFGekvFGNYJpRUhFqKqrVhgABVUASIxAbaU60hJKLSsdi/V3k/76ZVWXGsXqYij9PQtt7Le6Z/ONPkxlnQHuTlBvsLQ/vj4WlcW8oCTPqanWv+4T0FYaZRPUHGtyfevXLAFioh0QavPRRFNlgRjXKQ+jWAwh33XJ5VYjmkDfyQGhFl2DauO3dMI4ir7m8RjCHjYu1NlLbVpFRoNGgPtPo5/K1Ou5yCLBGJrWXtBOL0CkWCm8A7Lxe6IIkLN6l6zEQlM7MLT+Mom/qWCCvgCe8e3XlI+s7k1PufAshQe9J/1DX+yjSIJ1FGBb08sOBQEP3WCkpCcem9kLbNz/+7up7wBl7jx5Hcxz0p51K2mK11hXGQIvReurgSzPS9uWHWT9pOxJ4iG6RnbRksu2oRZvwKqepyVcdtEMUuySRmqzq+u4D9SUaLCd9jlYrXxc9Qsm5rKwhslc+x37QERC3ZJ24AMUh7PsiCJ9qSHtijept6Ub4pzQ6+nPwN2VDZei+6l8uLD2fZcrebu4fu4zhYYV6t1Tk5JDYGYUmvOj9Fz9kWAVwRvtWcRUkMP8Whtg8LlwoRq1Q//wLncQtSNhlF8dGl+nCtyRB11lT9bXfhpzlyqEbiHqiN5M41wbGJ4ZjWAgUvtpkvlHT2iaG1S2p0bhI2h/CuO3+++TDeoMqyYD6Q0pp64Pq3U3UFkG4bS8UIOY8r0iRqXsVBQ4UeZsVCdvWnYqnOztXCJav99K4jc9qdRSxFYvUi3HQh/7l5fI1C8zrFAoWh+Oltr1mqLKG/A4jeVF6d9GWJHb0QkizCkpWzNpCsItB0CmQdGoPOKocfENU3lVMysDMpN5mUzhQDkJpAFk56j+ICqNXMMyeAHWLr2NS6sySPdIs+gap2tBHfLawW2KzJJCMXBQHlaVWAhppFWYmZkGPSUQMJ3+diwxi0ImhgFzEXlpqcqniwkAqeUeZQAiKAfGnlG5Fq3Uf6B+vzObU8C1GyIyKGnLMsSsT1FQl+Upy+0ZM4SkNsvC2M9Db5aPquFs5jmvYctVVsIDJthr4+aTcljjYQWVPRbTx58QLYccX/2LMeNLrBTHlY0NZwOCJObPv4ERDNi/q9sFW0bz2rinGjhiDw8FhCVcY8tjtncC8hzhHnrBu8YZZ6n0bNzyBGJehc1Z/jusM53mK95M7sNsqpWfYKkUFsJqAQjaYtpG2WW0V2OohsGBodJS1SrIBxeD2UH6qKlLJvno56xXbqeOCmriIoYBchaN3n5G46d7u0ylnWsVwN49PQiQ+GtzLsWI6XqSl2TrAAQiXp0yIDpnsdC5Amyv3oOZLA05gVUWrwZwuMFtCSHenQyGmV8WsBDzda0uTFHWuv1BGf0tJ+zgjC11MEMn+Nu5B0K9le385AifHkK2+llgre+3pQ4DHUHzowxS7rSN0JYyo1oYvpXkCRyTxoVt/8JL/aLI2tg82ND3y57QE4qa1Z0fES9Sj/SzcSJQ3Qm/1XlUUVqT91gNFtzEr8W9HFDC7TcR04fCvUEptOQO++khYm/QI9WXVM6qUaX0TU267U84hk/xXZE9/qF6NEB8i64IrHmlkABxxI9d47G9zki6lQ5Gtek0TQNXCq22gnxLaPOM0JUtsO2P3k7UszzmdrDhz1RjxyrUAj3+l55iSyeKVUd7KCImwvHDNuXAjdLITNx/wMTmcnv7ucxFtWDItekRXWl3gPXRaQnVc7AlIX/aBqL8A85tTgy+0iqZN3iZmWqNKrsbVbAa8gzYF0xLqPnY0xvFDZ712dRW/eGvDyKFRRhII2StgAUtyAXGOTMK4iHre7UU6OgoJrJHzjYZtr9ldknUUDxlHXrkL0w16CAeS8Y+I79mNhpiyQ4NF3dnZhyXHrtGt1acMo9ISqNIbnVIaMYyoi8RLENe6hkHG032Sq65YJLsC454K68G5POGf8rP/ZGbYsf+ZadsLXzf8CqGZPL5xAsOsZ5hMuIZkVXS7civgHGIP6yeT/T2FU8ir+JmiDAUFgsNCjmCiD/5UKZ0yVXK1XPyJ6KCJocE6H39KZBI/a/d/hJUX/SBJaInQf9+7URKH/VtNu0xg596hXhTMK32khIYJ/Rcsl3sp7uP0em0Wn2dRh+79f79gl2P8KJ19O9lgntZ3heHuPlGetVfst7yrypQNN+4Ofbyx3KKyyQj74koUr+Fx/GHkgWk9Octrvojx/3uxHyZ2Wi9wIFAAJCtomZIuFNu6+JBpCwLPeRb9w4mnhuNj++b9DpdT9N9NjxHQSQ+HL5GRd6mYkP1gf2FjMgkl1asvu4jLYDlrIOJlsfzmctrDvWAiHeTGlNzfoxIG8FQ15RJxfdWaAIH4wpVmNm5/DDEBsnR2UJidyvjITGrrudLkHyujOqbfP1y4CceXlS9HUWhkvk037q1OUcuxasIfZfdolPxYuJv14ruzanGe15EHuu5ArMUSdwpERCO3Hus48L113JrXwbsT75qEfnEchFwsztCEomf35b6gcHTJvT0KXUisrfknw8+3onSvXROGPnnjfkdxcssrLL84fuIf7R7W9Hn9BjJ7NaHuRLgybT25dqf+7Nfff1d73kw/GPcxOVwq93t+DDSCzO2KM974nVbuuvc93NbsZ3ZfJO7kewGR+dx9vPNR5MX4PVXy931lk2Gx+PlPpxk+2m8TKy/sD+aLsZuEJHCuvtH7/MO+vDxTdEwXXZ4ebd1JKPd9PZ+vxzyB87b42STxsuVwTf9DyCp7sgg9tNjAAAAAElFTkSuQmCC"
+                alt="">Redux</a></p>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <br>
+  <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(0, 0, 0)">
+  <br><br>
+
+  <!-- project -->
+
+  <!-- Medium blogs -->
+
+  <div id="blogs" class="my-2 text-center text-white heading">
+    <h1>Medium Blogs</h1>
+
+    <div class="blogs-deck d-flex justify-content-center my-4">
+      <div class="card m-2" style="width: 18rem;">
+        <img src="https://static.mygov.in/media/blog/2024/02/pHxjdhZu-thumbnail-333x217.png" class="card-img-top"
+          alt="...">
+        <a href="https://blog.mygov.in/closure-announcement-for-poster-on-tribal-freedom-fighters/"
+          style="text-decoration: none; color: black;">
+          <div class="card-body">
+            <h5 class="card-title">Closure Announcement for Poster on Tribal Freedom Fighters</h5>
+            <p class="card-text">Poster on Tribal Freedom Fighters was organized by the Ministry of Tribal Affairs,
+              Government of India in collaboration with MyGov India […]</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="card m-2" style="width: 18rem;">
+        <img src="https://static.mygov.in/media/blog/2024/02/yZxICOjN-thumbnail-333x217.png" class="card-img-top"
+          alt="...">
+
+        <a href="https://blog.mygov.in/closure-announcement-blog-on-dr-b-r-ambedkar-quiz/"
+          style="text-decoration: none; color: black;">
+          <div class="card-body">
+            <h5 class="card-title">Closure Announcement Blog on Dr. B.R. Ambedkar Quiz</h5>
+            <p class="card-text">Dr. B.R. Ambedkar, born in 1891, emerged as a transformative figure in India’s pursuit
+              of social justice and equality. Rising […]</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="card m-2" style="width: 18rem;">
+        <img src="https://static.mygov.in/media/blog/2024/02/NpktaHZZ-thumbnail-333x217.png" class="card-img-top"
+          alt="...">
+        <div class="card-body">
+          <a style="text-decoration: none; color: black;"
+            href="https://blog.mygov.in/closure-announcement-blog-for-success-story-contest-on-water-conservation/">
+            <h5 class="card-title">Closure Announcement Blog for Success Story Contest on Water Conservation</h5>
+            <p class="card-text">Success Story Contest on Water Conservation was organized by the Ministry of Jal
+              Shakti, Government of India in collaboration with […]</p>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(0, 0, 0)">
+  <br> <br>
+
+  <!-- Contact -->
+  <h1 class="mb-2 text-center text-white">CONTACT ME</h1>
+
+  <div id="contact" class="contact">
+
+    <div id="my-contact" class="bg-white d-flex myButton justify-content-center flex-wrap col pt-5">
+      <a href="mailto:your.hjanoti9098@gmail.com"><button type="button" class="btn m-2 btn-outline-primary">Email Me</button></a>
+      <a href="https://www.linkedin.com/in/heera-singh-janoti-2ab7b6179
+
+      "><button type="button" class="btn m-2 btn-outline-success">Linkdin</button></a>
+      <a href=""><button type="button" class="btn m-2 btn-outline-warning">Medium</button></a>
+      <a href="https://www.twitter.com"><button type="button" class="btn m-2 btn-outline-info">Twitter</button></a>
+      <a href="https://github.com/hjanoti"><button type="button" class="btn m-2 btn-outline-dark">GitHub</button></a>
+
+    </div>
+  </div>
+
+  <br>
+  <hr>
+
+  <!-- Footer -->
+
+  <footer>
+    <div class="container text-center py-2">
+      <h5>Made with ❤️ by Heera Singh Janoti &copy; 2024 . All Rights Reserved.</h5>
+    </div>
+  </footer>
+
+  <script>
+    const textItems = [
+    "Web Developer",
+    "Nature Lover",
+    "Drawing Artist"
+];
+
+let index = 0;
+const mainTextElement = document.getElementById('mainText');
+const subTextElement = document.getElementById('subText');
+
+function animateText() {
+    subTextElement.textContent = textItems[index];
+    index = (index + 1) % textItems.length;
+}
+
+function startAnimation() {
+    setInterval(() => {
+        mainTextElement.classList.add('fade-out');
+        setTimeout(() => {
+            mainTextElement.textContent = "Hi, I am";
+            mainTextElement.classList.remove('fade-out');
+            animateText();
+        }, 500); 
+    }, 3000); 
+}
+
+startAnimation();
+
+  </script>
+
+</body>
+
+</html>
