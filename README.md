@@ -10,7 +10,7 @@ Welcome to my portfolio website! This site showcases skills as a web developer.
 ## Technologies Used
 
 - HTML5, CSS3, JavaScript
-- React.js, Bootstrap
+- Bootstrap
 
 ## How to Use
 
